@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Resume" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="4pV-bq-I9M">
+                                <rect key="frame" x="80" y="164.5" width="254" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="q8z-0x-BQQ"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="sliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="QfP-dA-OyZ"/>
+                                </connections>
+                            </slider>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l1G-q7-CKT">
+                                <rect key="frame" x="182.5" y="801" width="51" height="31"/>
+                            </switch>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A4b-VW-i97">
+                                <rect key="frame" x="50" y="607" width="314" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i0c-8U-WC3">
+                                <rect key="frame" x="20" y="44" width="374" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar-wordy" translatesAutoresizingMaskIntoConstraints="NO" id="mwk-MC-gQ8">
+                                <rect key="frame" x="98.5" y="309" width="217" height="278"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="278" id="fJs-5g-agz"/>
+                                    <constraint firstAttribute="width" constant="217" id="jri-VV-6bZ"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="qwY-w5-BVK">
+                                <rect key="frame" x="190" y="671" width="34" height="80"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9kR-2z-18e">
+                                        <rect key="frame" x="2" y="0.0" width="30" height="30"/>
+                                        <state key="normal" title="set"/>
+                                        <connections>
+                                            <action selector="setText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="imv-lJ-ZrM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SeW-nt-d17">
+                                        <rect key="frame" x="0.0" y="50" width="34" height="30"/>
+                                        <state key="normal" title="clear"/>
+                                        <connections>
+                                            <action selector="clearText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DWC-Of-6EP"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="4pV-bq-I9M" firstAttribute="top" secondItem="i0c-8U-WC3" secondAttribute="bottom" constant="100" id="8LY-F6-0pY"/>
+                            <constraint firstItem="mwk-MC-gQ8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HQy-Ge-IfD"/>
+                            <constraint firstItem="mwk-MC-gQ8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="IFg-Fe-4tQ"/>
+                            <constraint firstItem="A4b-VW-i97" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="Lbn-u0-Rxl"/>
+                            <constraint firstItem="i0c-8U-WC3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="MMg-p4-alh"/>
+                            <constraint firstItem="qwY-w5-BVK" firstAttribute="top" secondItem="A4b-VW-i97" secondAttribute="bottom" constant="30" id="OFY-9X-6KO"/>
+                            <constraint firstItem="l1G-q7-CKT" firstAttribute="top" secondItem="qwY-w5-BVK" secondAttribute="bottom" constant="50" id="Q1I-JE-DnF"/>
+                            <constraint firstItem="qwY-w5-BVK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qcg-7N-ol0"/>
+                            <constraint firstItem="A4b-VW-i97" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bBa-DQ-kA5"/>
+                            <constraint firstItem="i0c-8U-WC3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="dCN-Ux-b6w"/>
+                            <constraint firstItem="i0c-8U-WC3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ebg-tH-YKq"/>
+                            <constraint firstItem="A4b-VW-i97" firstAttribute="top" secondItem="mwk-MC-gQ8" secondAttribute="bottom" constant="20" id="fGy-HX-6YF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="i0c-8U-WC3" secondAttribute="trailing" constant="20" id="gaH-tR-25J"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="A4b-VW-i97" secondAttribute="trailing" constant="50" id="go7-1v-xj5"/>
+                            <constraint firstItem="4pV-bq-I9M" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qlD-CT-IJA"/>
+                            <constraint firstItem="l1G-q7-CKT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wcH-xi-2GT"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="DzC-fV-hGb" appends="YES" id="eR0-pI-oBD"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="buttonToClearText" destination="SeW-nt-d17" id="lmq-MK-jdz"/>
+                        <outlet property="buttonToSetText" destination="9kR-2z-18e" id="UQn-89-XRG"/>
+                        <outlet property="labelToShowText" destination="i0c-8U-WC3" id="9TQ-6S-YaJ"/>
+                        <outlet property="textInput" destination="A4b-VW-i97" id="L7v-Ou-OOr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="DzC-fV-hGb">
+                    <connections>
+                        <action selector="respondToTapGesture:" destination="BYZ-38-t0r" id="mjl-72-5Sy"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="56.521739130434788" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="avatar-wordy" width="1199" height="1493"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
