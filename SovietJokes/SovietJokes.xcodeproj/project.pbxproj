@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7EF07D5258C2B8600DAC9DB /* SovietJokesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF07C2258C2B8500DAC9DB /* SovietJokesApp.swift */; };
+		A7EF07D6258C2B8600DAC9DB /* SovietJokesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF07C2258C2B8500DAC9DB /* SovietJokesApp.swift */; };
+		A7EF07D7258C2B8600DAC9DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF07C3258C2B8500DAC9DB /* ContentView.swift */; };
+		A7EF07D8258C2B8600DAC9DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF07C3258C2B8500DAC9DB /* ContentView.swift */; };
+		A7EF07D9258C2B8600DAC9DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7EF07C4258C2B8600DAC9DB /* Assets.xcassets */; };
+		A7EF07DA258C2B8600DAC9DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7EF07C4258C2B8600DAC9DB /* Assets.xcassets */; };
+		A7EF07E6258C459F00DAC9DB /* JokeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF07E5258C459F00DAC9DB /* JokeRow.swift */; };
+		A7EF07E7258C459F00DAC9DB /* JokeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF07E5258C459F00DAC9DB /* JokeRow.swift */; };
+		A7EF07EB258C48E700DAC9DB /* JokesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF07EA258C48E700DAC9DB /* JokesView.swift */; };
+		A7EF07EC258C48E700DAC9DB /* JokesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF07EA258C48E700DAC9DB /* JokesView.swift */; };
+		A7EF07F0258C4F3100DAC9DB /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF07EF258C4F3100DAC9DB /* Sidebar.swift */; };
+		A7EF07F1258C4F3100DAC9DB /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF07EF258C4F3100DAC9DB /* Sidebar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7EF07C2258C2B8500DAC9DB /* SovietJokesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SovietJokesApp.swift; sourceTree = "<group>"; };
+		A7EF07C3258C2B8500DAC9DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A7EF07C4258C2B8600DAC9DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7EF07C9258C2B8600DAC9DB /* SovietJokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SovietJokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7EF07CC258C2B8600DAC9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7EF07D1258C2B8600DAC9DB /* SovietJokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SovietJokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7EF07D3258C2B8600DAC9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7EF07D4258C2B8600DAC9DB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		A7EF07E5258C459F00DAC9DB /* JokeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeRow.swift; sourceTree = "<group>"; };
+		A7EF07EA258C48E700DAC9DB /* JokesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesView.swift; sourceTree = "<group>"; };
+		A7EF07EF258C4F3100DAC9DB /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7EF07C6258C2B8600DAC9DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EF07CE258C2B8600DAC9DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7EF07BC258C2B8500DAC9DB = {
+			isa = PBXGroup;
+			children = (
+				A7EF07C1258C2B8500DAC9DB /* Shared */,
+				A7EF07CB258C2B8600DAC9DB /* iOS */,
+				A7EF07D2258C2B8600DAC9DB /* macOS */,
+				A7EF07CA258C2B8600DAC9DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7EF07C1258C2B8500DAC9DB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A7EF07C2258C2B8500DAC9DB /* SovietJokesApp.swift */,
+				A7EF07C3258C2B8500DAC9DB /* ContentView.swift */,
+				A7EF07E5258C459F00DAC9DB /* JokeRow.swift */,
+				A7EF07EA258C48E700DAC9DB /* JokesView.swift */,
+				A7EF07EF258C4F3100DAC9DB /* Sidebar.swift */,
+				A7EF07C4258C2B8600DAC9DB /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A7EF07CA258C2B8600DAC9DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7EF07C9258C2B8600DAC9DB /* SovietJokes.app */,
+				A7EF07D1258C2B8600DAC9DB /* SovietJokes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7EF07CB258C2B8600DAC9DB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A7EF07CC258C2B8600DAC9DB /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		A7EF07D2258C2B8600DAC9DB /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A7EF07D3258C2B8600DAC9DB /* Info.plist */,
+				A7EF07D4258C2B8600DAC9DB /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7EF07C8258C2B8600DAC9DB /* SovietJokes (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7EF07DD258C2B8600DAC9DB /* Build configuration list for PBXNativeTarget "SovietJokes (iOS)" */;
+			buildPhases = (
+				A7EF07C5258C2B8600DAC9DB /* Sources */,
+				A7EF07C6258C2B8600DAC9DB /* Frameworks */,
+				A7EF07C7258C2B8600DAC9DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SovietJokes (iOS)";
+			productName = "SovietJokes (iOS)";
+			productReference = A7EF07C9258C2B8600DAC9DB /* SovietJokes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7EF07D0258C2B8600DAC9DB /* SovietJokes (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7EF07E0258C2B8600DAC9DB /* Build configuration list for PBXNativeTarget "SovietJokes (macOS)" */;
+			buildPhases = (
+				A7EF07CD258C2B8600DAC9DB /* Sources */,
+				A7EF07CE258C2B8600DAC9DB /* Frameworks */,
+				A7EF07CF258C2B8600DAC9DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SovietJokes (macOS)";
+			productName = "SovietJokes (macOS)";
+			productReference = A7EF07D1258C2B8600DAC9DB /* SovietJokes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7EF07BD258C2B8500DAC9DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					A7EF07C8258C2B8600DAC9DB = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					A7EF07D0258C2B8600DAC9DB = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = A7EF07C0258C2B8500DAC9DB /* Build configuration list for PBXProject "SovietJokes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7EF07BC258C2B8500DAC9DB;
+			productRefGroup = A7EF07CA258C2B8600DAC9DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7EF07C8258C2B8600DAC9DB /* SovietJokes (iOS) */,
+				A7EF07D0258C2B8600DAC9DB /* SovietJokes (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7EF07C7258C2B8600DAC9DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EF07D9258C2B8600DAC9DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EF07CF258C2B8600DAC9DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EF07DA258C2B8600DAC9DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7EF07C5258C2B8600DAC9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EF07F0258C4F3100DAC9DB /* Sidebar.swift in Sources */,
+				A7EF07D7258C2B8600DAC9DB /* ContentView.swift in Sources */,
+				A7EF07EB258C48E700DAC9DB /* JokesView.swift in Sources */,
+				A7EF07D5258C2B8600DAC9DB /* SovietJokesApp.swift in Sources */,
+				A7EF07E6258C459F00DAC9DB /* JokeRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EF07CD258C2B8600DAC9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EF07F1258C4F3100DAC9DB /* Sidebar.swift in Sources */,
+				A7EF07D8258C2B8600DAC9DB /* ContentView.swift in Sources */,
+				A7EF07EC258C48E700DAC9DB /* JokesView.swift in Sources */,
+				A7EF07D6258C2B8600DAC9DB /* SovietJokesApp.swift in Sources */,
+				A7EF07E7258C459F00DAC9DB /* JokeRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A7EF07DB258C2B8600DAC9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7EF07DC258C2B8600DAC9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A7EF07DE258C2B8600DAC9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KSRA739W77;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.andone.SovietJokes;
+				PRODUCT_NAME = SovietJokes;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7EF07DF258C2B8600DAC9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KSRA739W77;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.andone.SovietJokes;
+				PRODUCT_NAME = SovietJokes;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7EF07E1258C2B8600DAC9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KSRA739W77;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.andone.SovietJokes;
+				PRODUCT_NAME = SovietJokes;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A7EF07E2258C2B8600DAC9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KSRA739W77;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.andone.SovietJokes;
+				PRODUCT_NAME = SovietJokes;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7EF07C0258C2B8500DAC9DB /* Build configuration list for PBXProject "SovietJokes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7EF07DB258C2B8600DAC9DB /* Debug */,
+				A7EF07DC258C2B8600DAC9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7EF07DD258C2B8600DAC9DB /* Build configuration list for PBXNativeTarget "SovietJokes (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7EF07DE258C2B8600DAC9DB /* Debug */,
+				A7EF07DF258C2B8600DAC9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7EF07E0258C2B8600DAC9DB /* Build configuration list for PBXNativeTarget "SovietJokes (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7EF07E1258C2B8600DAC9DB /* Debug */,
+				A7EF07E2258C2B8600DAC9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7EF07BD258C2B8500DAC9DB /* Project object */;
+}
